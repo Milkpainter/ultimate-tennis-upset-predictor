@@ -1,41 +1,141 @@
 # Core ML and Data Science
 numpy>=1.21.0
 pandas>=1.3.0
-scikit-learn>=1.0.0
-xgboost>=1.5.0
-lightgbm>=3.2.0
-
-# Statistical Analysis
 scipy>=1.7.0
+scikit-learn>=1.0.0
 statsmodels>=0.12.0
 
-# Data Collection
+# Advanced ML Frameworks
+xgboost>=1.5.0
+lightgbm>=3.2.0
+torch>=1.12.0
+torchvision>=0.13.0
+torchaudio>=0.12.0
+
+# Deep Learning and Transformers
+transformers>=4.20.0
+tokenizers>=0.12.0
+sentencepiece>=0.1.96
+
+# Data Collection and Web Scraping
 requests>=2.25.0
 beautifulsoup4>=4.9.0
-selenium>=3.141.0
-schedule>=1.1.0
+selenium>=4.0.0
+scrapy>=2.5.0
+aiohttp>=3.8.0
 
-# API Integration
-python-dotenv>=0.19.0
-pydantic>=1.8.0
+# Real-time Data and APIs
+websockets>=10.0
+sseclient-py>=1.7.0
+twitter-api-py>=1.4.0
+tweepy>=4.10.0
 
-# Visualization and Monitoring
+# Natural Language Processing
+nltk>=3.7
+spacy>=3.4.0
+textblob>=0.17.0
+vadersentiment>=3.3.2
+
+# Database and Storage
+sqlalchemy>=1.4.0
+psycopg2-binary>=2.9.0
+redis>=4.0.0
+sqlite3  # Built-in Python module
+
+# Async and Concurrency
+asyncio  # Built-in Python module
+aiofiles>=0.8.0
+uvloop>=0.16.0  # Unix only
+
+# Data Visualization and Monitoring
 matplotlib>=3.4.0
 seaborn>=0.11.0
 plotly>=5.0.0
-streamlit>=1.2.0
+dash>=2.5.0
+streamlit>=1.10.0
+bokeh>=2.4.0
 
-# Database
-sqlalchemy>=1.4.0
-psycopg2-binary>=2.9.0
+# Web Framework and API
+fastapi>=0.75.0
+uvicorn>=0.17.0
+flask>=2.1.0
 
-# Testing and Quality
-pytest>=6.2.0
-black>=21.0.0
-flake8>=3.9.0
+# Configuration and Environment
+python-dotenv>=0.19.0
+pydantic>=1.8.0
+pyaml>=6.0
+toml>=0.10.0
 
-# Utilities
+# Utilities and Helpers
 tqdm>=4.62.0
 joblib>=1.1.0
 python-dateutil>=2.8.0
 pytz>=2021.1
+click>=8.0.0
+rich>=12.0.0
+
+# Testing and Quality
+pytest>=6.2.0
+pytest-asyncio>=0.18.0
+black>=21.0.0
+flake8>=3.9.0
+isort>=5.10.0
+mypy>=0.950
+
+# Financial and Math Libraries
+numexpr>=2.8.0
+bottleneck>=1.3.0
+tables>=3.7.0
+
+# Time Series Analysis
+fbprophet>=0.7.1  # Optional
+statsforecast>=1.0.0  # Alternative
+
+# Optimization
+optuna>=2.10.0
+hyperopt>=0.2.7
+
+# Monitoring and Logging
+loguru>=0.6.0
+wandb>=0.12.0  # Optional for experiment tracking
+
+# Performance
+cython>=0.29.0
+numba>=0.56.0
+
+# GPU Acceleration (Optional)
+cupy-cuda11x>=10.0.0  # CUDA 11.x
+# cupy-cuda12x>=10.0.0  # CUDA 12.x (alternative)
+
+# Jupyter and Interactive
+jupyter>=1.0.0
+ipython>=8.0.0
+notebook>=6.4.0
+
+# Specialized Tennis/Sports Libraries
+# (These would be custom or specialized packages)
+# tennis-data-api>=1.0.0  # Custom package
+# sports-betting-math>=1.0.0  # Custom package
+
+# Optional Advanced Features
+# ray>=2.0.0  # For distributed computing
+# dask>=2022.0.0  # For parallel computing
+# modin>=0.15.0  # Faster pandas
+
+# Network and HTTP
+httpx>=0.23.0
+requests-oauthlib>=1.3.0
+
+# Data Formats
+pyarrow>=8.0.0
+fastavro>=1.5.0
+orjson>=3.7.0
+
+# Caching
+cachetools>=5.0.0
+diskcache>=5.4.0
+
+# Scheduling and Task Management
+celery>=5.2.0
+APScheduler>=3.9.0
+schedule>=1.1.0
